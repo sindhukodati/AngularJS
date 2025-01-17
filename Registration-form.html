@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <style>
+        body {
+            background-color: #add8e6;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: white;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+        }
+        input {
+            padding: 8px;
+            margin: 5px;
+            width: 200px;
+        }
+        button {
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body ng-app="MyApp">
+    <div class="container" ng-controller="MyCtrl">
+        <h1><u>REGISTRATION FORM</u></h1>
+        <label>Name:</label> 
+        <input type="text" ng-model="name"><br />
+
+        <label>Age:</label> 
+        <input type="number" ng-model="age"><br />
+
+        <label>Email:</label> 
+        <input type="email" ng-model="email"><br />
+
+        <label>Password:</label> 
+        <input type="password" ng-model="password"><br /><br />
+
+        <button ng-click="submit()">Submit</button>
+    </div>
+
+    <script>
+        var app = angular.module("MyApp", []);
+        app.controller("MyCtrl", function ($scope) {
+            $scope.name = "";
+            $scope.age = "";
+            $scope.email = "";
+            $scope.password = "";
+
+            $scope.submit = function() {
+                alert("Registration Successful\n\n" +
+                      "Name: " + $scope.name + "\n" +
+                      "Age: " + $scope.age + "\n" +
+                      "Email: " + $scope.email);
+            }
+        });
+    </script>
+</body>
+</html>
