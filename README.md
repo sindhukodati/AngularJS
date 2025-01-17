@@ -4,7 +4,7 @@
 
 # AngularJS Registration Form
 
-This is a simple **AngularJS-based Registration Form** that collects user details such as ** Name, Age, Email, and Password **. The form is styled with **CSS** and features a modern UI with a light blue background.
+This is a simple **AngularJS-based Registration Form** that collects user details such as **Name, Age, Email, and Password**. The form is styled with **CSS** and features a modern UI with a light blue background.
 
 ## 🚀 Features
 - Uses **AngularJS** for real-time form binding.
