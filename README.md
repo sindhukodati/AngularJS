@@ -21,8 +21,8 @@ This is a simple **AngularJS-based Registration Form** that collects user detail
 - **AngularJS (1.8.2)**
 
 ## 📸 Screenshot
-![Registration Form](https://via.placeholder.com/800x400?text=AngularJS+Registration+Form)  
-(*Replace the above link with an actual screenshot after hosting*)
+![Registration Form](https://github.com/sindhukodati/AngularJS/blob/main/Screenshot%202025-01-17%20184849.png)  
+
 
 ## 🎯 How to Run
 1. Clone the repository:
