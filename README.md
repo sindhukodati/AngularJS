@@ -27,11 +27,11 @@ This is a simple **AngularJS-based Registration Form** that collects user detail
 ## 🎯 How to Run
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/sindhukodati/AngularJS
    ```
 2. Navigate to the project directory:
    ```sh
-   cd your-repo-name
+   cd https://github.com/sindhukodati/AngularJS
    ```
 3. Open **index.html** in your web browser.
 
